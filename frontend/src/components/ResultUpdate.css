@@ -1,0 +1,204 @@
+.Resupdate_outer{
+    /* width: 80%; */
+    /* background-color: azure; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+   
+}
+
+.resupdate_container{
+    width: 90%;
+    /* background-color: beige; */
+    display: flex;  
+
+    flex-direction: column;
+   
+}
+.resupdate_conttable{
+    border-radius: 8px;
+    border: 1px solid lightblue;
+    margin: 20px;
+
+}
+.resupdate_row_header1{
+    /* width: 100%; */
+    /* background-color: #3f96f3; */
+    /* background-color: goldenrod; */
+    background-color:#020223;
+    
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;   
+    flex-direction: row;
+    padding: 10px;
+}
+.resupdate_hcol{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px;
+}
+.resupdate_hcol label{
+    /* color:white; */
+    color:goldenrod;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+}
+.fetch{
+    width: 95%;
+    display: flex;
+    /* justify-content: center; */
+    
+    text-align: center;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 20px;
+}
+.resupdate_col_fetch{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:space-between;
+    text-align:left;
+    flex-direction: row;
+    
+
+}
+.resupdate_col_fetch label{
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* flex-direction:row; */
+
+}
+.resupdate_col_fetch input{
+    width: 70%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    margin-right: 10px;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* flex-direction:row; */
+
+}
+.resupdate_col{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.resupdate_col label{
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+}
+
+.resupdate_col_result{
+    width: 20%;
+    /* background-color: rgb(88, 126, 160); */
+    border:1px solid rgb(61, 61, 61) ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.resupdate_col_result input{
+    width: 10%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    border: none;
+    outline: none;
+    margin-left: 3px;
+    padding: 5px;
+    /* margin-right: 10px; */
+
+}
+.resupdate_col input{
+    width: 50%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    /* border: none;
+    outline: none; */
+    margin-left: 3px;
+    padding: 5px;
+    /* margin-right: 10px; */
+}
+.resupdate_row_test2{
+   
+    display: flex;
+    /* justify-content: space-evenly;
+    align-items: center; */
+    flex-direction: column;
+    padding: 10px;
+    /* padding-left: 20px; */
+}
+
+
+.resupdate_row_button{
+
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+}
+.resupdate_row_button button{
+    width: 15%;
+    text-align: center;
+    /* background-color: #00a9e0; */
+    background-color: #2A687C;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    color:white;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+
+/* ========================================================= */
+/* ------------------------------------------------------- */
+
+

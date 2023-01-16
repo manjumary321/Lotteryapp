@@ -1,0 +1,101 @@
+.Lotteryresultfinder_outer{
+    width: 80%;
+    /* background-color: azure; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 10px;
+    
+    border-radius: 8px;
+    border: 1px solid lightblue;
+    /* box-shadow: 0px 8px 8px -4px lightblue; */
+    
+}
+
+.Lotteryresultfinder_row1{
+    /* width: 100%; */
+    background-color: #3f96f3;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    border-radius: 8px;
+    /* margin-top: 20px;
+    margin-right: 10px; */
+    margin: 20px;
+
+}
+.Lottresfinder_col1{
+    width: 50%;
+    display: flex;
+    
+    flex-direction:column;
+}
+.Lottresfinder_col2{
+    width: 50%;
+    display: flex;
+    
+    flex-direction:column;
+}
+.Lottresfinder_col1_row{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+}
+.Lottresfinder_col1_row label{
+    width: 50%;
+    text-align: left;
+    color:white;
+    /* font-family: "Lato", sans-serif; */
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+}
+.Lottresfinder_col1_row input{
+    width: 50%;
+    text-align: left;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.Lottresfinder_col1_row select{
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.Lotteryresultfinder_row2{
+    display: flex;
+    justify-content:right;
+    margin-right: 30px;
+    margin-top: 20px;
+    
+
+}
+.Lotteryresultfinder_row2 button{
+    width: 20%;
+    text-align: center;
+    background-color: #00a9e0;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    color:white;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+
+}
+.Lotteryresultfinder_row3{
+    margin: 20px;
+}
+.display{
+    width: 50%;
+    /* background-color: rgb(220, 106, 106); */
+    text-align: left;
+    padding: 5px;
+
+}
